@@ -11,3 +11,13 @@
     height: 64px;
     padding: 0 22px;
 }
+
+.logo {
+    max-height: 55px;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

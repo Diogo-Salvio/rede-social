@@ -1,8 +1,11 @@
 import React from "react";
 
 import { Button } from "@mui/material";
+import SvgIcon from '@mui/material/SvgIcon'
+import { Bell } from 'react-feather'
+import Avatar from '@mui/material/Avatar';
 
-import './style.css'
+import './Header.css'
 
 
 const Header = () => {
@@ -12,15 +15,12 @@ const Header = () => {
     return (
         <div className="header">
             <div className="toolbar">
-            
-                <div className="">
-                    <img className="logo" src="/images/logo.png" />
-                </div>
-                
-                <div className="">
+                <img className="logo" src="/images/logo.png" />
+    
+                <div className="user-section" >
                     <Button color="primary" variant="contained">Novo Post</Button>
-                    <span>Img1</span>
-                    <span>Img2</span>
+                    <SvgIcon> <Bell /> </SvgIcon>
+                    <Avatar alt="Avatar" src="" />
                 </div>
 
             </div>
