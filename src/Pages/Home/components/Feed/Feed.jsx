@@ -2,6 +2,13 @@ import React from "react";
 
 import "./Feed.css"
 
+
+
+
+const posts = [
+
+];
+
 const Feed = () => {
     return (
         <div>
