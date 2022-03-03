@@ -1,6 +1,7 @@
-.root {
+.nav-bar-cont {
     padding: 16px;
     width: 400px;
+    margin-right: 16px;
 }
 
 .button {

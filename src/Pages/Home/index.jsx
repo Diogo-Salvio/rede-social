@@ -14,9 +14,8 @@ const Home = () => {
     
     return (
         <div className="root"> 
-            <div>
-                <Header />           
-            </div>
+            
+            <Header />
 
             <div className="main">
 
