@@ -1,23 +1,33 @@
 import React from "react";
 
 import Header from "./components/Header"
+import Feed from "./components/Feed";
+import NavBar from "./components/NavBar";
 
 import "./style.css"
 
+
+
+
+
+
+
+
 const Home = () => {
+    
+
+    
     return (
-        <div>
+        <div className="root"> 
 
             <Header />           
             
-            <main className="main">
-                <div className="navbar">
+            <div className="main">
 
-                </div>
-                <div className="feed">
+            <Feed />
+            <NavBar />
 
-                </div>
-            </main>
+            </div>
         </div>
     );
 }

@@ -1,5 +1,10 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
-    background: grey;
+    background: white;
     width: 100%;
     position: fixed;
 }
